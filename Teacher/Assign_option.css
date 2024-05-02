@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#navbar{
+  position: relative;
+  top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50vw;
+  margin: auto;
+  background-color: rgb(241, 239, 129);
+  border-radius: 10px;
+  gap: 20vw;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+img{
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 10px;
+  padding-left: 3px;
+  height: 45px;
+}
+
+.para {
+  align-self: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.listbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+  padding-bottom: 10px;
+  margin-top: 25px;
+  gap: 20px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+
+.box:nth-child(2){
+  position: relative;
+  right: 9px;
+}
+
+
+
+.box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 25%;
+}
+
+.anchor {
+  text-decoration: none;
+  width: 100px;
+  padding: 15px 2px;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  background-color: rgb(225, 247, 245);
+  width: 120px;
+  border-radius: 30px;
+  transform: scale(1) translateY(0px);
+  transition: all;
+  transition-timing-function: ease;
+  transition-duration: 0.5s;
+  font-weight: bolder;
+}
+
+#bookbank{
+  width: 190px;
+  padding: 15px 2px;
+}
+
+.anchor:hover{
+  background-color: rgb(243, 208, 215);
+  transform: scale(1.03) translateY(3px);
+  color: white;
+}
