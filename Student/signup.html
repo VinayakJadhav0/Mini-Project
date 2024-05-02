@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="main">
+        
+        <form action="">
+            <h2>Sign-Up</h2>
+            <label for="name" id="labelname">Enter your name in the format:
+                lastname.firstname.middlename
+                (in smallcase) : *</label>
+            <input type="text" id="name" required>
+
+
+            <select name="appointment" id="appointment">
+                <option value="select">Select</option>
+                <option value="Ad-Hoc">Ad-Hoc</option>
+                <option value="Regular">Regular</option>
+            </select>
+
+            <select name="staff" id="staff">
+                <option value="select">Select</option>
+                <option value="">Teaching Staff</option>
+                <option value="">Non-teaching Staff : Technical</option>
+                <option value="">Non-teaching Staff : Non-technical</option>
+            </select>
+
+
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password" required>
+
+            <label for="conpassword">Comform Password :</label>
+            <input type="password" name="conpassword" id="conpassword" required>
+            <span style="color: red;">*required</span>
+            <a href="home.html" class="button btn button-24">Register</a>
+            <a href="login.html"><input type="button" value="Back" class="button button-24"></a>
+        </form>
+    </div>
+</body>
+</html>

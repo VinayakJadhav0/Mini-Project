@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+        .container{
+            background-color: #EAD8C0;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            width: 80vw;
+            margin: auto;
+            margin-top: 5vh;
+            border: 2px;
+            border-radius: 30px;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+            padding: 20px;
+        }
+
+        a{
+            display: flex;
+            flex-direction: column;
+            height: 75px;
+            justify-content: space-around;
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .teacher p{
+            position: relative;
+            left: 15px;
+        }
+        .teachers {
+            /* border: 2px solid black; */
+            background-color: rgb(243, 208, 215);
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+            transform: scale(1) translateX(0px);
+            transition: all;
+            transition-timing-function: ease;
+            border-radius: 25px;
+            transition-duration: 0.5s;
+        }
+
+        .teachers:hover{
+            transform: scale(1.03) translateX(3px);
+            box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+            background-color: rgb(178, 115, 128);
+        }
+
+        .button-24{
+            background-color: rgb(243, 208, 215);
+             border: 1px solid #4a511e;
+             border-radius: 56px;
+             box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+             box-sizing: border-box;
+             color: #FFFFFF;
+             cursor: pointer;
+             display: inline-block;
+             font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+             font-size: 16px;
+             font-weight: 800;
+             line-height: 16px;
+             height: 40px;
+             width: 100px;
+             text-align: center;
+             margin: auto;
+             outline: 0;
+             padding: 12px 14px;
+             text-align: center;
+             text-rendering: geometricprecision;
+             text-transform: none;
+             user-select: none;
+             -webkit-user-select: none;
+             touch-action: manipulation;
+             vertical-align: middle;
+        }
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #4a511e;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Faculty :</h2>
+        <div class="teachers">
+            <label class="teacher" for="t1">
+                <a href="feedback1.html" id="t1">
+                    <p><b>Subject</b> : <i>Automata Theory (Theory)</i></p>
+                    <p><b>Teacher</b> : <i>Ram Medar</i></p></a>
+            </label>
+        </div>
+        <div class="teachers">
+            <label class="teacher" for="t2">
+                <a href="feedback2.html" id="t2">
+                    <p><b>Subject</b> : <i>Software Engineering (Theory)</i></p>
+                    <p><b>Teacher</b> : <i> Chaitanya Pendekar</i></p></a>
+            </label>
+        </div>
+        <div class="teachers">
+            <label class="teacher" for="t3">
+                <a href="feedback3.html" id="t3">
+                    <p><b>Subject</b> : <i>Computer Organization and Architecture (Theory)</i></p>
+                    <p><b>Teacher</b> : <i>Mamata Kalas</i></p></a>
+            </label>
+        </div>
+        <div class="teachers">
+            <label class="teacher" for="t4">
+                <a href="feedback4.html" id="t4">
+                    <p><b>Subject</b> : <i>Computer Algorithm (Theory)</i></p>
+                    <p><b>Teacher</b> : <i>Uday Patil</i></p></a>
+            </label>
+        </div>
+        <div class="teachers">
+            <label class="teacher" for="t5">
+                <a href="feedback5.html" id="t5">
+                    <p><b>Subject</b> : <i>Computer Graphics (Theory)</i></p>
+                    <p><b>Teacher</b> : <i>Dipali Jadhav</i></p></a>
+            </label>
+        </div>
+        <div class="teachers">
+            <label class="teacher" for="t6">
+                <a href="feedback6.html" id="t6">
+                    <p><b>Subject</b> : <i>Object Oriented Programming (Theory)</i></p>
+                    <p><b>Teacher</b> : <i>Sameer Patil</i></p></a>
+            </label>
+        </div>
+        <div class="teachers">
+            <label class="teacher" for="t7">
+                <a href="feedback7.html" id="t7">
+                    <p><b>Subject</b> : <i>Mini Project</i></p>
+                    <p><b>Teacher</b> : <i>Mahesh Salunkhe</i></p></a>
+            </label>
+        </div>
+        <div class="teachers">
+            <label class="teacher" for="t8">
+                <a href="feedback8.html" id="t8">
+                    <p><b>Subject</b> : <i>Computer Graphics (Practical)</i></p>
+                    <p><b>Teacher</b> : <i>Dipali Jadhav</i></p></a>
+            </label>
+        </div>
+        <div class="teachers">
+            <label class="teacher" for="t9">
+                <a href="feedback9.html" id="t9">
+                    <p><b>Subject</b> : <i>Object Oriented Programming (Practical)</i></p>
+                    <p><b>Teacher</b> : <i>Sameer Patil</i></p></a>
+            </label>
+        </div>
+        <div class="teachers">
+            <label class="teacher" for="t10">
+                <a href="feedback10.html" id="t10">
+                    <p><b>Subject</b> : <i>Mini Project (PBL)</i></p>
+                    <p><b>Teacher</b> : <i>Mahesh Salunkhe</i></p></a>
+            </label>
+        </div>
+        <a href="home.html" class="button-24">Exit</a>
+        
+        
+        </div>
+    </div>
+</body>
+</html>

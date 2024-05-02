@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branch</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            background: linear-gradient(to right bottom,#e5ddc5,#bed7dc);
+        }
+
+        .container{
+            background-color: #EAD8C0;
+            position: relative;
+            top: 10px;
+            display: grid;
+            width: 90vw;
+            margin: auto;
+            grid-template-columns: repeat(3,28vw);
+            grid-template-rows: repeat(3,28vh);
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+            align-items: center;
+            border-radius: 30px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .box {
+            text-decoration: none;
+            color: black;
+            height: 22vh;
+            width: 23vw;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            padding: 5px;
+            background-color: rgb(243, 208, 215);
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+            transform: scale(1) translateY(0px);
+            transition: all;
+            transition-timing-function: ease;
+            transition-duration: 0.5s;
+        }
+
+        .box:hover{
+            transform: scale(1.03) translateY(3px);
+            box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+            background-color: rgb(178, 115, 128);
+            color: white;
+        }
+
+        .cheakbox1{
+            position: absolute;
+            left: 46%;
+            top: 41%;
+            width: 75px;
+            height: 75px;
+            border-radius: 100px;
+            background-color: red;
+        }
+        #cheak{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+        }
+
+        h2 {
+            position: relative;
+            top: 3px;
+            width: 200px;
+            padding: 10px 2px;
+            margin: auto;
+            border-radius: 20px;  
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            text-align: center;
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+        }
+
+        @media only screen and (max-width: 480px){
+
+        
+        .container{
+            background-color: #EAD8C0;
+            display: grid;
+            grid-template-columns: 60vw;
+            grid-template-rows: repeat(9,150px);
+            width: 80vw;
+            margin: auto;
+            border-radius: 30px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            margin-bottom: 30px;
+        }
+        .box {
+            text-decoration: none;
+            color: black;
+            height: 100px;
+            width: 60vw;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: large;
+            padding: 5px;
+            background-color: rgb(243, 208, 215);
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+            transform: scale(1) translateY(0px);
+            transition: all;
+            transition-timing-function: ease;
+            transition-duration: 0.5s;
+        }
+
+        .box:hover{
+            transform: scale(1.05) translateY(5px);
+            box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+            background-color: rgb(178, 115, 128);
+            color: white;
+        }
+        
+    }
+    </style>
+</head>
+<body>
+    <h2>Choose Branch</h2>
+    <div class="container">
+        <a href="choosedivision.html" class="box">Computer Science & Engineering</a>
+        <a href="choosedivision.html" class="box">Computer Science & Engineering (AIML)</a>
+        <a href="choosedivision.html" class="box">Computer Science & Engineering (DS)</a>
+        <a href="choosedivision.html" class="box">Computer Science & Business System</a>
+        <a href="choosedivision.html" class="box">Mechanical Engineering</a>
+        <a href="choosedivision.html" class="box">Electrical Engineering</a>
+        <a href="choosedivision.html" class="box">Electronics & Telecommunnication</a>
+        <a href="choosedivision.html" class="box">Civil Engineering</a>
+        <a href="choosedivision.html" class="box">Bio-technological Engineering</a>
+    </div>
+</body>
+</html>
